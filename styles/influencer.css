@@ -26,6 +26,11 @@
     font-size: 16px;
 }
 
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
 /* header related style */
 header {
     padding: 90px 120px;
@@ -85,7 +90,133 @@ nav li a {
 /* sponsers style */
 .sponsers-img-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 170px;
-
+    border: #000000;
 }
+
+/* main related style */
+.Collection {
+    text-align: center;
+}
+
+.popular {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.item {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px #e4e4e4;
+}
+
+.item img {
+    padding-top: 17px;
+    padding-right: 15px;
+    padding-left: 14px;
+    padding-bottom: 16px;
+}
+
+.item,
+.item-title {
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-bottom: 6px;
+}
+
+.item,
+.item-description {
+    padding-top: 6px;
+    padding-left: 14px;
+    padding-bottom: 8px;
+}
+
+.item,
+.item-des {
+    padding-top: 6px;
+    padding-left: 14px;
+}
+
+.item-title {
+    color: #18191F;
+    font-size: 28px;
+}
+
+.item-description {
+    color: #000000;
+    font-size: 24px;
+}
+
+.item-des {
+    color: #787885;
+    font-size: 14px;
+    max-width: 198px;
+}
+
+.icon {
+    color: #E02C6D;
+    text-align: right;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.featured {
+    display: flex;
+}
+
+.featured-title {
+    color: #0A0826;
+    font-size: 38px;
+}
+
+.item-pic {
+    margin-right: 96px;
+}
+
+.featured-description {
+    color: #6C6C6C;
+    font-size: 16px;
+    /* max-width: 501px; */
+    /* margin: auto; */
+}
+
+.btn {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    font-size: 16px;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 3px;
+}
+
+.footer-description,
+.footer-des {
+    color: #D9DBE1;
+    font-size: 14px;
+}
+
+.footer-des {
+    padding-bottom: 17px;
+}
+
+.footer-img {
+    color: #C0CCDA;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;

@@ -17,6 +17,11 @@
 }
 
 /* shared style */
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .btn-primary {
     border-radius: 41px;
     background: #E02C6D;
